@@ -125,6 +125,9 @@ You can preview the production build with `npm run preview`.
 
     
 # 프로젝트 세팅 - 소스 공유 - 리포지토리 생성
+    https://github.com/king-garlic/svelte-app-gh-pages
+    
+# 프로젝트 세팅 - 소스 공유 용 명령 실행
     echo "# svelte-app-gh-pages" >> README.md
     git init
     git add README.md
@@ -132,6 +135,53 @@ You can preview the production build with `npm run preview`.
     git branch -M main
     git remote add origin https://github.com/king-garlic/svelte-app-gh-pages.git
     git push -u origin main
+
+# 프로젝트 세팅 - 소스 공유 용 명령 실행 결과
+
+    C:\job\front-end\svelte\svelte-app-gh-pages>echo "# svelte-app-gh-pages" >> README.md
+
+    C:\job\front-end\svelte\svelte-app-gh-pages>git init
+    Initialized empty Git repository in C:/job/front-end/svelte/svelte-app-gh-pages/.git/
+
+    C:\job\front-end\svelte\svelte-app-gh-pages>git add README.md
+    warning: LF will be replaced by CRLF in README.md.
+    The file will have its original line endings in your working directory
+
+    C:\job\front-end\svelte\svelte-app-gh-pages>git commit -m "first commit"
+    [master (root-commit) 7335fd5] first commit
+    1 file changed, 137 insertions(+)
+    create mode 100644 README.md
+
+    C:\job\front-end\svelte\svelte-app-gh-pages>git branch -M main
+
+    C:\job\front-end\svelte\svelte-app-gh-pages>git remote add origin https://github.com/king-garlic/svelte-app-gh-pages.git
+
+    C:\job\front-end\svelte\svelte-app-gh-pages>git push -u origin main
+    Enumerating objects: 3, done.
+    Counting objects: 100% (3/3), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (2/2), done.
+    Writing objects: 100% (3/3), 1.61 KiB | 822.00 KiB/s, done.
+    Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+    To https://github.com/king-garlic/svelte-app-gh-pages.git
+    * [new branch]      main -> main
+    Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+    C:\job\front-end\svelte\svelte-app-gh-pages>
+
+
+
+
+
+# 프로젝트 세팅 - 소스 공유 - 리포지토리 주소 새로고침
+    https://github.com/king-garlic/svelte-app-gh-pages
+
+
+
+
+# 프로젝트 세팅 - 프로젝트 소스 커밋 , 푸시
+
+
 
 
 # 프로젝트 세팅 - Building - npm run build"# svelte-app-gh-pages" 
